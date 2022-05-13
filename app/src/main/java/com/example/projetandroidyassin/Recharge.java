@@ -55,7 +55,7 @@ public class Recharge extends AppCompatActivity {
                 if(numero.length() >8 || numero.length() < 8 ) {
                     txtNum.setText("Le numéro de téléphne doit étre 8 chiffre");
                 }
-                else {
+               else {
                     if (numTel.equals("2")) {
                         txtNum.setTextColor(Color.parseColor("#FF0000"));
                         txtRecharge.setText("Entrer votre code de recharge (14 chiffre)");
